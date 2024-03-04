@@ -4,7 +4,9 @@ import os
 import pytorch_lightning as pl
 import pytorch_lightning.loggers
 import wandb
+import sys
 
+sys.path.append('..')
 import aegnn
 
 
